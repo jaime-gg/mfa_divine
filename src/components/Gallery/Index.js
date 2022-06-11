@@ -1,6 +1,7 @@
 import React from "react";
+import Painting from "../Painting";
 
-const Home = () => {
+const Gallery = () => {
 
     return (
         <div className="wrapper row">
@@ -10,4 +11,4 @@ const Home = () => {
 };
 
 
-export default Home;
+export default Gallery;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home = () => {
+const Filters = () => {
 
     return (
         <div className="wrapper row">
@@ -10,4 +10,4 @@ const Home = () => {
 };
 
 
-export default Home;
+export default Filters;
