@@ -1,11 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
 
     return (
-        <div className="wrapper row">
+        <header className="wrapper row">
 
-        </div>
+            <div className="logo px-4 py-3">
+
+                <Link to="/">
+                    <h1>Title</h1>
+                </Link>
+            </div>
+
+            <nav className="p-3">
+                <ul className="under">
+                    <li>
+                        <Link to="/orderHistory">
+                            Order A Ticket
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="/donate">
+                            Make A Donation
+                        </Link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     );
 };
 
