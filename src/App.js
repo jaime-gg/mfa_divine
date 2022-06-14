@@ -11,6 +11,7 @@ import Success from './pages/Success'
 import Checkout from "./pages/Checkout";
 
 import Nav from './components/Nav';
+import Footer from './components/Footer'
 
 function App() {
   return (

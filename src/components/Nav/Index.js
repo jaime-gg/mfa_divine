@@ -16,6 +16,11 @@ const Nav = () => {
             <nav className="p-3">
                 <ul className="under">
                     <li>
+                        <a href="#gallery">
+                            View Our Online Gallery
+                        </a>
+                    </li>
+                    <li>
                         <Link to="/orderHistory">
                             Order A Ticket
                         </Link>
