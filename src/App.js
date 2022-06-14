@@ -10,6 +10,8 @@ import NoMatch from './pages/NoMatch';
 import Success from './pages/Success'
 import Checkout from "./pages/Checkout";
 
+import Nav from './components/Nav';
+
 function App() {
   return (
     <Router>
