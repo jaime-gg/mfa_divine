@@ -3,8 +3,12 @@ import React from "react";
 const Filters = () => {
 
     return (
-        <div className="wrapper row">
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
 
+                </ul>
+            </div>
         </div>
     );
 };
