@@ -15,10 +15,10 @@ function App() {
   return (
     <Router>
         <div className="row h-100 page-bg">
-            <div className="side-menu col-3 ">
+            <div className="side-menu">
               <Nav />
             </div>
-            <div className=" main-page col-9">
+            <div className=" main-page">
               <Switch>
               <Route exact path="/" component={Home} />
                 <Route exact path="/art/:id" component={Detail} />

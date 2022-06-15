@@ -5,7 +5,6 @@ const Nav = () => {
 
     return (
         <header className="wrapper row">
-
             <div className="logo px-4 py-3">
 
                 <Link to="/">
