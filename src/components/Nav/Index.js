@@ -8,11 +8,11 @@ const Nav = () => {
             <div className="logo px-4 py-3">
 
                 <Link to="/">
-                    <h1>Title</h1>
+                    <h1>TDF</h1>
                 </Link>
             </div>
 
-            <nav className="p-3">
+            <nav id="navbar" className="nav-menu navbar1">
                 <ul className="under">
                     <li>
                         <a href="#gallery">
@@ -20,7 +20,7 @@ const Nav = () => {
                         </a>
                     </li>
                     <li>
-                        <Link to="/orderHistory">
+                        <Link to="/checkout">
                             Order A Ticket
                         </Link>
                     </li>
