@@ -19,7 +19,7 @@
     position: relative;
     z-index: 2;
     min-width: 300px;
-    background: linear-gradient(rgba(239, 185, 161, 0.2), rgba(239, 185, 161, 0.2)), url(../../assets/3.jpg);
+    background: linear-gradient(rgba(239, 185, 161, 0.2), rgba(239, 185, 161, 0.2)), url(../../assets/txt.jpg);
     background-size: cover;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; 
