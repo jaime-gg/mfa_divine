@@ -11,7 +11,7 @@ import img6 from '../../assets/6.jpeg'
 const Gallery = () => {
 
     return (
-        <section className="wrapper row">
+        <section className="wrapper row gallery">
             <div class="section-title">
                 <h2> A Preview of Our Collection </h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>

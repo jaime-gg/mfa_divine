@@ -1,23 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './style.css';
 
 const Nav = () => {
 
     return (
         <header className="wrapper row">
-            <div className="logo px-4 py-3">
-
-                <Link to="/">
-                    <h1>TDF</h1>
-                </Link>
-            </div>
-
             <nav id="navbar" className="nav-menu navbar1">
-                <ul className="under">
+                <ul className="justify-content-center">
                     <li>
-                        <a href="#gallery">
+                        <Link to="/#gallery">
                             View Our Online Gallery
-                        </a>
+                        </Link>
                     </li>
                     <li>
                         <Link to="/checkout">
