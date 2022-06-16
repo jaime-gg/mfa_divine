@@ -15,9 +15,9 @@ function App() {
   return (
     <Router>
         <div className="row h-100 page-bg">
-            <div className="side-menu">
+            <header className="side-menu">
               <Nav />
-            </div>
+            </header>
             <div className=" main-page">
               <Switch>
               <Route exact path="/" component={Home} />
@@ -27,6 +27,9 @@ function App() {
                 <Route component={NoMatch} />
               </Switch>
             </div>
+            <footer>
+              <Footer />
+            </footer>
         </div>
       </Router>
   );
