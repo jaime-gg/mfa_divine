@@ -29,6 +29,13 @@ const Gallery = () => {
                         <div class="portfolio-links">
                             <button href={img1} data-gallery="portfolioGallery" class="portfolio-lightbox" title="Zoom In"><i class="bx bx-plus"></i></button>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+
+                            <div class="modal">
+                                <div class="modal-content">
+                                    <span class="close-button">&times;</span>
+                                    <img src={img1} alt=""/> 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
