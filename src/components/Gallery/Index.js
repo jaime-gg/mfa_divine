@@ -27,7 +27,7 @@ const Gallery = () => {
                     <div class="portfolio-wrap">
                         <img src={img1} class="g-img" alt="" />
                         <div class="portfolio-links">
-                            <a href={img1} data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                            <button href={img1} data-gallery="portfolioGallery" class="portfolio-lightbox" title="Zoom In"><i class="bx bx-plus"></i></button>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -37,7 +37,7 @@ const Gallery = () => {
                     <div class="portfolio-wrap">
                         <img src={img2} class="g-img" alt="" />
                         <div class="portfolio-links">
-                            <a href={img2} data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                            <button href={img2} data-gallery="portfolioGallery" class="portfolio-lightbox" title="Zoom In"><i class="bx bx-plus"></i></button>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const Gallery = () => {
                     <div class="portfolio-wrap">
                         <img src={img3} class="g-img" alt="" />
                         <div class="portfolio-links">
-                            <a href="{img3}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                            <button href="{img3}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Zoom In"><i class="bx bx-plus"></i></button>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const Gallery = () => {
                     <div class="portfolio-wrap">
                         <img src={img4} class="g-img vc" alt="" />
                         <div class="portfolio-links">
-                            <a href="{img4}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                            <button href="{img4}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Zoom In"><i class="bx bx-plus"></i></button>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const Gallery = () => {
                     <div class="portfolio-wrap">
                         <img src={img5} class=" l-img" alt="" />
                         <div class="portfolio-links">
-                            <a href="{img5}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                            <button href="{img5}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Zoom In"><i class="bx bx-plus"></i></button>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const Gallery = () => {
                     <div class="portfolio-wrap">
                         <img src={img6} class="g-img" alt="" />
                         <div class="portfolio-links">
-                            <a href="{img6}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                            <button href="{img6}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Zoom In"><i class="bx bx-plus"></i></button>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                         </div>
                     </div>
