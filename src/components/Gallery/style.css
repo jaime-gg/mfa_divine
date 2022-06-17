@@ -3,9 +3,20 @@
 }
 
 .g-img {
-    max-height: 100%;
+    max-height: auto;
     max-width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+.l-img {
+    max-height: 100%;
+    max-width: auto;
+    object-fit: cover;
+}
+
+.vc {
+    -ms-transform: translateY(-33%);
+    transform: translateY(-33%);
 }
 
 .portfolio .portfolio-wrap {

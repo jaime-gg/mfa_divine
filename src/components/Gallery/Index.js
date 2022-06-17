@@ -55,7 +55,7 @@ const Gallery = () => {
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                     <div class="portfolio-wrap">
-                        <img src={img4} class="g-img" alt="" />
+                        <img src={img4} class="g-img vc" alt="" />
                         <div class="portfolio-links">
                             <a href="{img4}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -65,7 +65,7 @@ const Gallery = () => {
 
                 <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div class="portfolio-wrap">
-                        <img src={img5} class="g-img" alt="" />
+                        <img src={img5} class=" l-img" alt="" />
                         <div class="portfolio-links">
                             <a href="{img5}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
