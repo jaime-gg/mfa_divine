@@ -3,7 +3,23 @@ import Modal from '../Modal';
 
 const ImgData = ({ category }) => {
 
-   
+    const [imgs] = useState([
+        {
+            name: '',
+            category: '',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+        }
+    ]);
+
+    const [currentImg, setCurrentImg] = useState();
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const currentImgs = imgs.filter((img) => img.category === category);
+
+    const toggleModal = (image, i) => {
+        setCurrentImg({...image, index: i});
+        setIsModalOpen(!isModalOpen);
+    }
 
     return (
         <div>
