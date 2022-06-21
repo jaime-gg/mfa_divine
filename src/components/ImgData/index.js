@@ -59,7 +59,7 @@ const ImgData = ({ category }) => {
                 <div class="portfolio-wrap">
                     {currentImgs.map((image, i) => (
                         <img
-                            src={require(`../../assets/small/${category}/${i}.jpg`)}
+                            src={require(`../../assets/${category}/${i}.jpg`)}
                             alt={image.name}
                             className="g-img"
                             key={image.name}
