@@ -17,15 +17,15 @@ const ImgData = ({ category }) => {
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         },
         {
-            name: '',
-            artist: '',
-            category: '',
+            name: 'The Adoration of the Shepherds',
+            artist: 'Francesco Fontebasso',
+            category: 'Arts of Europe and the Mediterranean',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         },
         {
-            name: '',
-            artist: '',
-            category: '',
+            name: 'Christ and the Woman of Samaria',
+            artist: 'Marcantonio Franceschini',
+            category: 'Arts of Europe and the Mediterranean',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         },
         {
