@@ -8,6 +8,31 @@ const ImgData = ({ category }) => {
             name: '',
             category: '',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+        },
+        {
+            name: '',
+            category: '',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+        },
+        {
+            name: '',
+            category: '',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+        },
+        {
+            name: '',
+            category: '',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+        },
+        {
+            name: '',
+            category: '',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+        },
+        {
+            name: '',
+            category: '',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         }
     ]);
 
