@@ -29,15 +29,15 @@ const ImgData = ({ category }) => {
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         },
         {
-            name: '',
-            artist: '',
-            category: '',
+            name: 'The Death of St. Clare',
+            artist: 'Bartolomé Estebán Murillo',
+            category: 'Rienzi',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         },
         {
-            name: '',
-            artist: '',
-            category: '',
+            name: 'The Mocking of Christ',
+            artist: 'Domenico Tintoretto',
+            category: 'Sarah Campbell Blaffer Foundation',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         }
     ]);
