@@ -14,9 +14,17 @@ function App() {
 
   const [categories] = useState([
     {
-      name: '',
-      description: '',
+      name: 'Sarah Campbell Blaffer Foundation',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur adipiscing elit. Nunc ultricie. Nunc ultricie',
     },
+    {
+      name: 'Rienzi',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie.',
+    },
+    {
+      name: 'Arts of Europe and the Mediterranean',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie. Lorem ipsum dolor',
+    }
 
   ]);
 
