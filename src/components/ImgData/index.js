@@ -5,32 +5,38 @@ const ImgData = ({ category }) => {
 
     const [imgs] = useState([
         {
+            name: 'Allegory of Knowledge and the Visual Arts Crowning Parthenope, the Siren of Naples',
+            artist: 'Paolo de Matteis',
+            category: 'Sarah Campbell Blaffer Foundation',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+        },
+        {
+            name: 'The Immaculate Conception',
+            artist: 'Juan Carreño de Miranda',
+            category: 'Rienzi',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+        },
+        {
             name: '',
+            artist: '',
             category: '',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         },
         {
             name: '',
+            artist: '',
             category: '',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         },
         {
             name: '',
+            artist: '',
             category: '',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         },
         {
             name: '',
-            category: '',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        },
-        {
-            name: '',
-            category: '',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-        },
-        {
-            name: '',
+            artist: '',
             category: '',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
         }
