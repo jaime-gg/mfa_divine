@@ -37,7 +37,28 @@ body {
     font-family: 'Courier Prime', monospace;
 }
 
+button {
+	background: var(--primary);
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+
 a {
-    text-decoration: none;
-    color: var(--dark);
+	border-radius: 5px;
+	color: var(--primary);
+	font-weight: 600;
+	padding: 2px 4px;
+	margin-left: -2px;
+	margin-right: -2px;
+	
+}
+
+.navActive {
+  color: var(--secondary);
 }

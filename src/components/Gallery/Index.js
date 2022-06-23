@@ -14,7 +14,7 @@ const Gallery = (props) => {
 
             <Filters />
 
-            <div class="section-title"> 
+            <div className="section-title"> 
                 <h2 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h2>
                 <p>{currentCategory.description}</p>
             </div>

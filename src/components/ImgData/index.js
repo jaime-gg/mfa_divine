@@ -56,7 +56,7 @@ const ImgData = ({ category }) => {
         <div>
             {isModalOpen && <Modal currentImg={currentImg} onClose={toggleModal} />}
             <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
+                <div className="portfolio-wrap">
                     {currentImgs.map((image, i) => (
                         <img
                             src={require(`../../assets/${category}/${i}.jpg`)}
@@ -67,7 +67,7 @@ const ImgData = ({ category }) => {
                         />
                     ))}
                     {currentImgs.map((image, i) => (
-                        <button onClick={() => toggleModal(image, i)} data-gallery="portfolioGallery" class="portfolio-lightbox" title="More Details"><i class="bx bx-plus"></i></button>
+                        <button onClick={() => toggleModal(image, i)} data-gallery="portfolioGallery" className="portfolio-lightbox" title="More Details"><i className="bx bx-plus"></i></button>
                     ))}
 
                 </div>
